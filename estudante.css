@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+#estudante-info {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #4caf50;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+#estudante-info > div {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #4caf50;
+}
+
+#estudante-info > div:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+#estudante-info > div > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#estudante-info > div > ul > li {
+    padding-left: 20px;
+    position: relative;
+}
+
+#estudante-info > div > ul > li::before {
+    content: "\2022";
+    color: #4caf50;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
